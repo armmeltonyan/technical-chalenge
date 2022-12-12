@@ -1,17 +1,17 @@
 ## How to run
 - Clone the repository
 - composer install
-##Docker
+## Docker
 - ./vendor/bin/sail up
 - bash ./vendor/laravel/sail/bin/sail up    /windows cmd
-##Manual
+## Manual
 - cp env.example to .env
 - set configurations in the .env
 - php artisan:migrate
 - php artisan db:seed
 - php artisan key:generate
 - php artisan serve
-##Tests
+## Tests
 - php artisan test
 ## API documentation
 - https://documenter.getpostman.com/view/7011800/2s8YzTVNsC
